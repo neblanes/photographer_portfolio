@@ -20,12 +20,11 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js">
 	</script> 
+
 		
 
 	<?php wp_head(); ?>
-		<script>
-  AOS.init();
-</script>
+	
 </head>
 
 <body <?php body_class(); ?>>

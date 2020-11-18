@@ -1045,7 +1045,7 @@ textarea {
 		position: absolute;
 		height: 9px;
 		width: 100%;
-		background:#00EEFF;
+		background:#ffffff;
 		border-radius: 9px;
 		opacity: 1;
 		left: 0;
@@ -1095,16 +1095,16 @@ textarea {
 		z-index: 10;
 		transition: transform .8s ease, opacity ease 1s;
 		margin: 0;
-		padding-top: 5em;
+		padding-top: 10em;
 		padding-left: 0;
 		}
 	nav ul.now-active {
-		height: 100vh;
+		height: 90vh;
 		transform: translateX(0);
 		transition: transform .5s ease, opacity ease 1s;
 		opacity: 1;
 		margin: 0;
-		padding-top: 5em;
+		padding-top: 10em;
 		padding-left: 0;
 		background-color:#000000ed;
 		}
@@ -1276,6 +1276,9 @@ textarea {
 	#swipebox-slider .slide {
 	padding: 5em !important;
 	background-color: rgba(255, 255, 255, 0.904);
+}
+.rl-pagination, .rl-pagination-bottom{
+	text-align: center !important;
 }
 
 }
