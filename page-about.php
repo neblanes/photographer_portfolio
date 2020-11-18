@@ -35,7 +35,6 @@ get_header();
 						echo "<div class='about-description'>";
 						echo the_field("about_description");
 						echo "</div>";
-		
 						echo "<h2>";
 						echo "<a href= portfolio >";
 						echo  the_field('about_cta');
